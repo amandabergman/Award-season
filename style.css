@@ -1,0 +1,63 @@
+* {box-sizing: border-box;
+
+}
+
+h1{ color: #e5cccc;
+  font-size: 50px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+.herobild img {
+  width: 90%;
+}
+
+h2 {
+  color: #b5a3d1;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: #202057;
+  font-size: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+p {
+  color: black;
+  font-size: 13px;
+  font-family: Helvetica;
+
+}
+
+.bakgrund {
+  display: flex;
+  background-color: #220e3f;
+  justify-content: space-around;
+}
+
+.trending {
+  width: 25%;
+  padding: 10px;
+  background-color: white;
+}
+
+.talk {
+  width: 40%;
+  padding: 10px;
+  background-color: white;
+}
+
+.world {
+  width: 25%;
+  padding: 10px;
+  background-color: white;
+}
+
+.puff img {
+  width: 100%;
+
+}
