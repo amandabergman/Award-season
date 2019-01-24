@@ -1,0 +1,218 @@
+* {box-sizing: border-box;
+
+}
+
+h1{ color: #e5cccc;
+  font-size: 50px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+.herobild {
+  padding: 80px;
+  padding-top: 170px;
+  background-image:url(hollywood.png);
+  background-position: top;
+  background-size: cover;
+}
+
+h2 {
+  color: #376996;
+  font-size: 28px;
+  font-family: "Codystar";
+  text-align: center;
+}
+
+h3 {
+  color: #575366;
+  font-size: 20px;
+  font-family: "Cinzel";
+  margin-bottom: 3px;
+  margin-top: 5px;
+  text-align: center;
+
+}
+
+h4 {
+  color: #575366;
+  font-size: 15px;
+  font-family: Helvetica;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+
+p {
+  color: black;
+  font-size: 13px;
+  font-family: Helvetica;
+  margin-top: 3px;
+  text-align: center;
+
+}
+
+.bakgrund {
+  display: flex;
+  background-color: #003366;
+  justify-content: space-around;
+  padding: 18px
+}
+
+.winners {
+  width: 25%;
+  padding: 10px;
+  background-color: white;
+  border: 2px;
+  border-radius: 5px;
+}
+
+.artiklar {
+  display: block;
+  padding: 3px;
+}
+
+.artiklar img {
+  width: 90%;
+}
+
+.divider {
+  height: 1px;
+  width: 185px;
+  background: #999;
+  display: block;
+  margin: 3px auto;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+
+.dressed {
+  width: 40%;
+  padding: 10px;
+  background-color: white;
+  border: 2px;
+  border-radius: 5px;
+}
+
+.nominees {
+  width: 25%;
+  padding: 10px;
+  background-color: white;
+  border: 2px;
+  border-radius: 5px;
+}
+
+.puff img {
+  width: 100%;
+
+
+}
+
+@media screen and (max-width:767px) {
+  .bakgrund {
+    display: block;
+    padding: 5px;
+  }
+  .winners {
+    width: 85%;
+    margin: 5px auto;
+    border-style: outset;
+  }
+
+  .dressed {
+    width: 85%;
+    margin: 10px auto;
+    border-style: outset;
+  }
+
+  .nominees{
+    width: 85%;
+    margin: 5px auto;
+    border-style: outset;
+  }
+
+  .herobild {
+    padding: 40px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+  p {
+    font-size: 8px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+  .bakgrund {
+    display: block;
+    padding: 15px;
+  }
+  .winners {
+    width: 85%;
+    margin: 10px auto;
+    border-style: outset;
+  }
+
+  .dressed {
+    width: 85%;
+    margin: 20px auto;
+    border-style: outset;
+  }
+
+  .nominees{
+    width: 85%;
+    margin: 10px auto;
+    border-style: outset;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+}
+
+/* .myButton{
+  background-color: purple;
+  border: 2px;
+  padding: 4px;
+  margin: 2px;
+  width: 100px;
+  height: 50px;
+
+}
+
+.myButton2 {
+  background-color: purple;
+  border: 2px;
+  padding: 4px;
+  margin: 2px;
+  width: 100px;
+  height: 50px;
+}
+
+.hide {
+  display: none;
+} */
