@@ -41,7 +41,7 @@ fetch(url)
 
 
   let today2= moment().format ("YYYY-MM-DD")
-  let urlfornominees = `https://newsapi.org/v2/everything?language=en&q=%2Boscars%20AND%20%2Bnominees%20AND%20%2Bawards%20AND%20-trump%20AND%20-stream%20AND%20-worst%20AND%20-gobe%20AND%20-bafta%20AND%20-golden%20AND%20-ellen%20AND%20-today%20AND%20-1990&from=2019-01-01&${today2}&pageSize=5&domains=huffingtonpost.com,usatoday.com,thisisinsider.com,eonline.com&apiKey=e4c19186bbf64068a1bd60a380a7b0e6`
+  let urlfornominees = `https://newsapi.org/v2/everything?language=en&q=%2Boscars%20AND%20%2Bnominees%20AND%20%2Bawards%20AND%20-trump%20AND%20-stream%20AND%20-worst%20AND%20-gobe%20AND%20-bafta%20AND%20-golden%20AND%20-ellen%20AND%20-today%20AND%20-1990&from=2019-01-01&${today2}&sortBy=popularity&pageSize=5&domains=huffingtonpost.com,usatoday.com,thisisinsider.com,eonline.com&apiKey=e4c19186bbf64068a1bd60a380a7b0e6`
 
 
   // Our main function which handles the news items and adds them to the DOM
