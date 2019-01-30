@@ -17,11 +17,11 @@ let receivedNews = (newsData) => {
       <h3>${article.title}</h3>
       <h4>${article.author}</h4>
       <h5>${moment(article.publishedAt).format('MMMM Do YYYY, h:mm a')}</h5>
-      <p><a href="${article.url}"> Full article</a></p>
       <div class="bredvid">
       <img src="${article.urlToImage}"/>
       <p>${article.description}</p>
       </div>
+      <p><a href="${article.url}"> Full article</a></p>
       </div>
       <div class="divider"></div>`
   })
@@ -56,11 +56,11 @@ fetch(url)
         <h3>${article.title}</h3>
         <h4>${article.author}</h4>
         <h5>${moment(article.publishedAt).format('MMMM Do YYYY, h:mm a')}</h5>
-        <p><a href="${article.url}"> Full article</a></p>
         <div class="bredvid">
         <img src="${article.urlToImage}"/>
         <p>${article.description}</p>
         </div>
+        <p><a href="${article.url}"> Full article</a></p>
         </div>
         <div class="divider"></div>`
     })

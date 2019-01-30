@@ -53,6 +53,13 @@ p {
 
 }
 
+a {
+  color: #575366;
+  font-family: "Codystar";
+  font-size: 10px;
+  text-decoration: none;
+}
+
 .bakgrund {
   display: flex;
   background-color: #003366;
@@ -289,6 +296,10 @@ p {
   }
 
   h5 {
+    font-size: 5px;
+  }
+
+  a {
     font-size: 5px;
   }
 
