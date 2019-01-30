@@ -1,6 +1,8 @@
 
 // Our variables
-let url = "https://newsapi.org/v2/everything?language=en&q=%2Bgolden%20AND%20%2Bglobe%20AND%20%2Bwinner%20AND%20-red%20AND%20-carpet%20AND%20-nominees%20AND%20-neil%20AND%20-backstage%20AND%20-gaga&from=2019-01-01&to=2019-01-23&sortBy=popularity&domains=theguardian.com,thisisinsider.com,hollywoodreporer.com&apiKey=e4c19186bbf64068a1bd60a380a7b0e6"
+let today= moment().format ("YYYY-MM-DD")
+
+let url = `https://newsapi.org/v2/everything?language=en&q=%2Bgolden%20AND%20%2Bglobe%20AND%20%2Bwinner%20AND%20-red%20AND%20-carpet%20AND%20-nominees%20AND%20-neil%20AND%20-backstage%20AND%20-gaga&from=2019-01-01&to=${today}&sortBy=popularity&pageSize=5&domains=theguardian.com,thisisinsider.com,hollywoodreporer.com&apiKey=e4c19186bbf64068a1bd60a380a7b0e6`
 
 
 // Our main function which handles the news items and adds them to the DOM
@@ -38,8 +40,8 @@ fetch(url)
 
 
 
-
-  let urlfornominees = "https://newsapi.org/v2/everything?language=en&q=%2Boscars%20AND%20%2Bnominees%20AND%20%2Bawards%20AND%20-trump%20AND%20-stream%20AND%20-worst%20AND%20-gobe%20AND%20-bafta%20AND%20-golden%20AND%20-ellen%20AND%20-today%20AND%20-1990&from=2019-01-01&to=2019-01-23&sortBy=popularity&pageSize=5&domains=huffingtonpost.com,usatoday.com,thisisinsider.com,eonline.com&apiKey=e4c19186bbf64068a1bd60a380a7b0e6"
+  let today2= moment().format ("YYYY-MM-DD")
+  let urlfornominees = `https://newsapi.org/v2/everything?language=en&q=%2Boscars%20AND%20%2Bnominees%20AND%20%2Bawards%20AND%20-trump%20AND%20-stream%20AND%20-worst%20AND%20-gobe%20AND%20-bafta%20AND%20-golden%20AND%20-ellen%20AND%20-today%20AND%20-1990&from=2019-01-01&${today2}&sortBy=popularity&pageSize=5&domains=huffingtonpost.com,usatoday.com,thisisinsider.com,eonline.com&apiKey=e4c19186bbf64068a1bd60a380a7b0e6`
 
 
   // Our main function which handles the news items and adds them to the DOM
